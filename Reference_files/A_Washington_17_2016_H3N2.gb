@@ -1,0 +1,827 @@
+//
+LOCUS       KX414254                2313 bp    cRNA    linear   VRL 24-AUG-2017
+DEFINITION  Influenza A virus (A/Washington/17/2016(H3N2)) segment 1 polymerase
+            PB2 (PB2) gene, complete cds.
+ACCESSION   KX414254
+VERSION     KX414254.1
+KEYWORDS    .
+SOURCE      Influenza A virus (A/Washington/17/2016(H3N2))
+  ORGANISM  Influenza A virus (A/Washington/17/2016(H3N2))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus.
+REFERENCE   1  (bases 1 to 2313)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Influenza Sequencing Activity group
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2313)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUN-2016) WHO Collaborating Center for Surveillance,
+            Epidemiology and Control of Influenza, Influenza Division, Centers
+            for Disease Control and Prevention, 1600 Clifton Road, N.E.,
+            Atlanta, GA 30333, USA
+COMMENT     ##FluData-START##
+            EPI_ISOLATE_ID        :: EPI_ISL_215274
+            NAME                  :: A/Washington/17/2016
+            TYPE                  :: H3N2
+            Segment_name          :: PB2
+            PASSAGE               :: S2 (2016-02-15)
+            LOCATION              :: United States / Washington
+            COLLECT_DATE          :: 19-Jan-2016
+            RESIST_TO_OSELTAMIVIR :: Sensitive
+            RESIST_TO_ZANAMVIR    :: Sensitive
+            SPECIMEN_ID           :: GH-150160-2 ORIGINAL
+            SENDER_LAB            :: Marshfield Clinic Research Foundation
+            SEQLAB_SAMPLE_ID      :: 3025624705
+            EPI_SEQUENCE_ID       :: EPI727512
+            ##FluData-END##
+FEATURES             Location/Qualifiers
+     source          1..2313
+                     /organism="Influenza A virus (A/Washington/17/2016(H3N2))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Washington/17/2016"
+                     /serotype="H3N2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:1866150"
+                     /segment="1"
+                     /country="USA"
+                     /collection_date="19-Jan-2016"
+                     /note="passage details: S2 (02/15/2016)"
+     gene            16..2295
+                     /gene="PB2"
+     CDS             16..2295
+                     /gene="PB2"
+                     /codon_start=1
+                     /product="polymerase PB2"
+                     /protein_id="ANM98662.1"
+                     /translation="MERIKELRNLMSQSRTREILTKTTVDHMAIIKKYTSGRQEKNPS
+                     LRMKWMMAMKYPITADKRITEMVPERNEQGQTLWSKMSDAGSDRVMVSPLAVTWWNRN
+                     GPVTSTVHYPKVYKTYFDKIERLKHGTFGPVHFRNQVKIRRRVDINPGHADLSAKEAQ
+                     DVIMEVVFPNEVGARILTSESQLTITKEKKEELRDCKISPLMVAYMLERELVRKTRFL
+                     PVAGGTSSIYIEVLHLTQGTCWEQMYTPGGGVRNDDVDQSLIIAARNIVRRAAVSADP
+                     LASLLEMCHSTQIGGTRMVDILKQNPTEEQAVDICKAAMGLRISSSFSFGGFTFKRTS
+                     GSSVKKEEEVLTGNLQTLRIRVHEGYEEFTMVGKRATAILRKATRRLVQLIVGGRDEQ
+                     SIAEAIIVAMVFSQEDCMIKAVRGDLNFVNRANQRLNPMHQLLRHFQKDAKVLFQNWG
+                     VEHIDSVMGMVGVLPDMTPSTEMSMRGIRVSKMGVDEYSSTERVVVSIDRFLRVRDQR
+                     GNVLLSPEEVSETQGTERLTITYSSSMMWEINGPESVLVNTYQWIIRNWEAVKIQWSQ
+                     NPAMLYNKMEFEPFQSLVPKATRSQYSGFVRTLFQQMRDVLGTFDTAQIIKLLPFAAA
+                     PPKQSRMQFSSLTVNVRGSGMRILVRGNSPVFNYNKTTKRLTILGKDAGTLIEDPDES
+                     TSGVESAVLRGFLIIGKEDRRYGPALSINELSNLAKGEKANVLIGQGDVVLVMKRKRD
+                     SSILTDSQTATKRIRMAIN"
+ORIGIN      
+        1 tcaattatat tcagcatgga aagaataaaa gaactacgga atctaatgtc gcagtctcgc
+       61 actcgcgaga tactgacaaa aaccacagtg gaccatatgg ccataattaa gaagtacaca
+      121 tcggggagac aggaaaagaa cccgtcactt aggatgaaat ggatgatggc aatgaaatat
+      181 ccaatcactg ctgacaaaag gataacagaa atggttccgg agagaaatga acaaggacaa
+      241 actctatgga gtaaaatgag tgatgctgga tcagatagag tgatggtatc acctttggct
+      301 gtaacatggt ggaataggaa tggacccgtg acaagtacgg tccattaccc aaaagtgtac
+      361 aaaacttatt tcgacaaaat cgaaaggtta aaacatggaa cctttggccc tgtccatttt
+      421 agaaatcaag tcaagatacg cagaagagta gacataaacc ctggtcatgc agacctcagt
+      481 gccaaagagg cacaagatgt aattatggaa gttgtttttc ccaatgaagt gggagccaga
+      541 atactaacat cagaatcaca gctaacaata actaaagaga aaaaagaaga actccgagat
+      601 tgcaaaattt ctcccttgat ggtcgcatac atgttagaga gagaacttgt gcggaaaaca
+      661 agatttctcc cagttgctgg cggaacaagc agtatataca ttgaagtttt acatttgact
+      721 caaggaacgt gttgggaaca aatgtacact ccaggtggag gagtgaggaa tgacgatgtt
+      781 gaccaaagcc taattattgc ggccaggaac atagtaagaa gagccgcagt gtcagcagat
+      841 ccactagcat ctttattgga gatgtgccac agcacgcaaa ttggcggaac aaggatggtg
+      901 gacattctta aacagaaccc gactgaagaa caagctgtgg atatatgcaa ggctgcaatg
+      961 gggttgagaa tcagctcatc cttcagcttt ggtggcttta catttaaaag aacaagcggg
+     1021 tcgtcagtca aaaaagaaga agaggttctt acaggcaatc tccaaacatt gagaataaga
+     1081 gtacatgagg ggtatgagga gttcacaatg gtggggaaaa gagcaacagc tatactaaga
+     1141 aaagcaacca gaagattggt tcaactcata gtgggtggaa gagacgaaca gtcaatagcc
+     1201 gaagcaataa tcgtggccat ggtgttttca caagaagatt gcatgataaa agcagttaga
+     1261 ggtgacctga attttgtcaa cagagcaaat cagcggttga accccatgca tcagctttta
+     1321 aggcattttc agaaagatgc gaaagtgctc tttcaaaatt ggggagttga acacatcgac
+     1381 agtgtgatgg gaatggttgg agtattacca gatatgactc caagcacaga gatgtcaatg
+     1441 agaggaataa gagtcagcaa aatgggtgtg gatgaatact ccagtacaga gagggtggtg
+     1501 gttagcattg atcggttttt gagagttcga gaccaacgtg ggaatgtatt attatctcct
+     1561 gaggaggtca gtgaaacaca gggaactgaa agactgacaa taacttattc atcgtcgatg
+     1621 atgtgggaga ttaacggtcc tgagtcggtt ttggtcaaca cctatcaatg gatcatcagg
+     1681 aattgggaag ctgtcaaaat tcaatggtct cagaatcctg caatgttgta caacaaaatg
+     1741 gaatttgaac catttcaatc tttagtcccc aaggccacta gaagccaata cagtgggttt
+     1801 gtcagaactc tattccaaca aatgagagac gtacttggga catttgacac tgcccagata
+     1861 ataaagcttc tcccttttgc agctgctcca ccgaagcaaa gcagaatgca gttctcttca
+     1921 ctgactgtga atgtgagggg atcagggatg agaatacttg taaggggcaa ttctcctgta
+     1981 tttaactaca acaagaccac taaaaggcta acaattcttg gaaaagatgc cggcacttta
+     2041 attgaagacc cagatgaaag cacatccgga gtggagtccg ccgtcttgag agggttcctc
+     2101 attataggca aagaagacag aagatacgga ccagcattaa gcatcaatga actgagtaac
+     2161 cttgcaaaag gggaaaaggc taatgtgcta attgggcaag gagacgtggt gttggtaatg
+     2221 aaacgaaaac gggactctag tatacttact gacagccaga cagcgaccaa aagaattcgg
+     2281 atggccatca attaatactg aatagtttaa aaa
+//
+LOCUS       KX414255                2316 bp    cRNA    linear   VRL 24-AUG-2017
+DEFINITION  Influenza A virus (A/Washington/17/2016(H3N2)) segment 2 polymerase
+            PB1 (PB1) and PB1-F2 protein (PB1-F2) genes, complete cds.
+ACCESSION   KX414255
+VERSION     KX414255.1
+KEYWORDS    .
+SOURCE      Influenza A virus (A/Washington/17/2016(H3N2))
+  ORGANISM  Influenza A virus (A/Washington/17/2016(H3N2))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus.
+REFERENCE   1  (bases 1 to 2316)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Influenza Sequencing Activity group
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2316)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUN-2016) WHO Collaborating Center for Surveillance,
+            Epidemiology and Control of Influenza, Influenza Division, Centers
+            for Disease Control and Prevention, 1600 Clifton Road, N.E.,
+            Atlanta, GA 30333, USA
+COMMENT     ##FluData-START##
+            EPI_ISOLATE_ID        :: EPI_ISL_215274
+            NAME                  :: A/Washington/17/2016
+            TYPE                  :: H3N2
+            Segment_name          :: PB1
+            PASSAGE               :: S2 (2016-02-15)
+            LOCATION              :: United States / Washington
+            COLLECT_DATE          :: 19-Jan-2016
+            RESIST_TO_OSELTAMIVIR :: Sensitive
+            RESIST_TO_ZANAMVIR    :: Sensitive
+            SPECIMEN_ID           :: GH-150160-2 ORIGINAL
+            SENDER_LAB            :: Marshfield Clinic Research Foundation
+            SEQLAB_SAMPLE_ID      :: 3025624705
+            EPI_SEQUENCE_ID       :: EPI727513
+            ##FluData-END##
+FEATURES             Location/Qualifiers
+     source          1..2316
+                     /organism="Influenza A virus (A/Washington/17/2016(H3N2))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Washington/17/2016"
+                     /serotype="H3N2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:1866150"
+                     /segment="2"
+                     /country="USA"
+                     /collection_date="19-Jan-2016"
+                     /note="passage details: S2 (02/15/2016)"
+     gene            13..2286
+                     /gene="PB1"
+     CDS             13..2286
+                     /gene="PB1"
+                     /codon_start=1
+                     /product="polymerase PB1"
+                     /protein_id="ANM98663.1"
+                     /translation="MDVNPTLLFLKVPAQNAISTTFPYTGDPPYSHGTGTGYTMDTVN
+                     RTHQYSERGKWTTNTETGAPQLNPIDGPLPEDNEPSGYAQTDCVLEAMAFLEESHPGI
+                     FENSCLETMEAVQQTRVDKLTQGRQTYDWTLNRNQPAATALANTIEVFRSNGLTANES
+                     GRLIDFLKDVMESMDKEEMEITTHFQRKRRVRDNMTKKMVTQRTIGKKKQRVNKRGYL
+                     IRALTLNTMTKDAERGKLKRRAIATPGMQIRGFVYFVETLAKSICEKLEQSGLPIGGN
+                     EKKAKLANVVRKMMTNSQDTELSFTITGDNTKWNENQNPRMFLAMITYITKNQPEWFR
+                     NILSIAPIMFSNKMARLGKGYMFESKRMKLRTQIPAEMLASIDLKYFNESTRKKIEKI
+                     RPLLIDGTASLSPGMMMGMFNMLSTVLGVSILNLGQKKYTKTTYWWDGLQSSDDFALI
+                     VNAPNHEGIQAGVDRFYRTCKLVGINMSKKKSYINKTGTFEFTSFFYRYGFVANFSME
+                     LPSFGVSGINESADMSIGVTVIKNNMINNDLGPATAQMALQLFIKDYRYTYRCHRGDT
+                     QIQTRRSFEIKKLWDQTQSRTGLLVSDGGPNLYNIRNLHIPEVCLKWELMDENYRGRL
+                     CNPLNPFVSHKEIESVNNAVVMPAHGPAKSMEYDAVATTHSWIPKRNRSILNTSQRGI
+                     LEDEQMYQKCCNLFEKFFPSSSYRRPIGISSMVEAMVSRARIDARIDFESGRIKKEEF
+                     SEIMKICSTIEELRRQK"
+     gene            107..379
+                     /gene="PB1-F2"
+     CDS             107..379
+                     /gene="PB1-F2"
+                     /codon_start=1
+                     /product="PB1-F2 protein"
+                     /protein_id="ANM98664.1"
+                     /translation="MEQGQGTLWTQSTEHTNTQRGGSGQQIQKLGRPSSTQLMDHYLR
+                     IMNQVDMHKQTVSWRLWPSLKNPTQVSLRTPALKQWKPFNRQGWTN"
+ORIGIN      
+        1 caaaccattt gaatggatgt caatccgact ctactgttct taaaagttcc agcgcaaaat
+       61 gccataagca caacattccc ttatactgga gatcctccat acagccatgg aacagggaca
+      121 gggtacacta tggacacagt caacagaaca caccaatact cagagagggg gaagtggaca
+      181 acaaatacag aaactggggc gccccagctc aacccaattg atggaccact acctgaggat
+      241 aatgaaccaa gtggatatgc acaaacagac tgtgtcctgg aggctatggc cttccttgaa
+      301 gaatcccacc caggtatctt tgagaactcc tgccttgaaa caatggaagc cgttcaacag
+      361 acaagggtgg acaaactaac ccaaggtcgc cagacttatg attggacatt aaacaggaac
+      421 caaccggcag caactgcatt agccaacacc atagaagtct ttagatcgaa cggattaaca
+      481 gctaatgaat caggaaggct aatagatttc ctcaaggatg tgatggaatc aatggataag
+      541 gaggaaatgg agataacaac acactttcaa agaaaaagga gagtaaggga caacatgacc
+      601 aagaaaatgg tcacacaaag aacaataggg aagaaaaaac aaagggtgaa taagagaggc
+      661 tacctaataa gagctttgac attgaacacg atgaccaagg atgcagagag aggcaaatta
+      721 aaaagaaggg ctattgcaac acccgggatg caaattagag ggttcgtgta cttcgttgaa
+      781 actttagcta aaagcatttg cgaaaagctt gaacaatctg gacttccgat tgggggtaat
+      841 gaaaagaagg ccaaactggc aaatgttgtg agaaaaatga tgactaattc acaagacaca
+      901 gagctttctt tcacaatcac tggggacaac actaagtgga atgaaaatca aaacccccga
+      961 atgtttttgg cgatgattac atacatcaca aagaatcaac ctgaatggtt cagaaacatc
+     1021 ctgagcatcg caccaataat gttctcaaac aaaatggcaa gactgggaaa aggatacatg
+     1081 ttcgagagta agagaatgaa gctccggaca caaatacctg cagaaatgct agcaagcatt
+     1141 gacctgaagt atttcaatga atcaacaagg aagaaaattg agaaaataag gcctcttcta
+     1201 atagatggca cagcatcatt gagccctgga atgatgatgg gcatgttcaa catgctaagt
+     1261 acagttttag gagtctcgat actgaatctt ggacaaaaga aatacaccaa gacaacatac
+     1321 tggtgggatg ggctccaatc ctcagacgat tttgccctca tagtgaatgc accaaatcat
+     1381 gagggaatac aagcaggagt ggatagattc tataggacct gcaagttagt gggaatcaac
+     1441 atgagcaaaa agaagtccta tataaataaa acagggacat ttgaattcac tagctttttt
+     1501 tatcgatatg gatttgtggc taattttagc atggagctgc caagttttgg agtgtctgga
+     1561 ataaacgagt cagctgacat gagcattgga gtaacagtga taaagaacaa catgataaat
+     1621 aatgaccttg gaccagcaac agcccaaatg gctctccaat tgttcatcaa agattacaga
+     1681 tacacgtatc ggtgccatag aggagacaca caaatccaaa cgagaagatc attcgagata
+     1741 aagaagctgt gggatcaaac ccaatcaagg acaggactat tggtatcaga tgggggacca
+     1801 aacttataca atatccggaa tcttcacatc cctgaagtct gcttaaagtg ggagctgatg
+     1861 gatgagaatt atcggggaag actttgtaat cccctgaatc cctttgtcag ccataaagaa
+     1921 attgaatctg taaacaatgc tgtagtaatg ccagcccatg gtccggccaa aagtatggaa
+     1981 tatgatgccg ttgcaactac acattcctgg attcccaaaa ggaaccgctc tattctaaac
+     2041 acaagccaaa ggggaattct tgaggatgaa cagatgtacc agaagtgctg caacttgttc
+     2101 gagaaatttt tccctagtag ttcatatagg agaccgattg gaatttctag catggtggag
+     2161 gccatggtgt ctagggcccg gattgatgcc agaattgact tcgaatctgg aaggattaag
+     2221 aaggaagagt tctctgagat catgaagatc tgttccacca ttgaagaact cagacggcaa
+     2281 aaatgatgaa tttagcttgt ccttcatgaa aaaatg
+//
+LOCUS       KX414256                2208 bp    cRNA    linear   VRL 24-AUG-2017
+DEFINITION  Influenza A virus (A/Washington/17/2016(H3N2)) segment 3 polymerase
+            PA (PA) and PA-X protein (PA-X) genes, complete cds.
+ACCESSION   KX414256
+VERSION     KX414256.1
+KEYWORDS    .
+SOURCE      Influenza A virus (A/Washington/17/2016(H3N2))
+  ORGANISM  Influenza A virus (A/Washington/17/2016(H3N2))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus.
+REFERENCE   1  (bases 1 to 2208)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Influenza Sequencing Activity group
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2208)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUN-2016) WHO Collaborating Center for Surveillance,
+            Epidemiology and Control of Influenza, Influenza Division, Centers
+            for Disease Control and Prevention, 1600 Clifton Road, N.E.,
+            Atlanta, GA 30333, USA
+COMMENT     ##FluData-START##
+            EPI_ISOLATE_ID        :: EPI_ISL_215274
+            NAME                  :: A/Washington/17/2016
+            TYPE                  :: H3N2
+            Segment_name          :: PA
+            PASSAGE               :: S2 (2016-02-15)
+            LOCATION              :: United States / Washington
+            COLLECT_DATE          :: 19-Jan-2016
+            RESIST_TO_OSELTAMIVIR :: Sensitive
+            RESIST_TO_ZANAMVIR    :: Sensitive
+            SPECIMEN_ID           :: GH-150160-2 ORIGINAL
+            SENDER_LAB            :: Marshfield Clinic Research Foundation
+            SEQLAB_SAMPLE_ID      :: 3025624705
+            EPI_SEQUENCE_ID       :: EPI727511
+            ##FluData-END##
+FEATURES             Location/Qualifiers
+     source          1..2208
+                     /organism="Influenza A virus (A/Washington/17/2016(H3N2))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Washington/17/2016"
+                     /serotype="H3N2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:1866150"
+                     /segment="3"
+                     /country="USA"
+                     /collection_date="19-Jan-2016"
+                     /note="passage details: S2 (02/15/2016)"
+     gene            13..2163
+                     /gene="PA"
+     CDS             13..2163
+                     /gene="PA"
+                     /codon_start=1
+                     /product="polymerase PA"
+                     /protein_id="ANM98665.1"
+                     /translation="MEDFVRQCFNPMIVELAEKAMKEYGEDLKIETNKFAAICTHLEV
+                     CFMYSDFHFINEQGESIVVELDDPNALLKHRFEIIEGRDRTMAWTVVNSICNTTGAGK
+                     PKFLPDLYDYKENRFIEIGVTRREVHIYYLEKANKIKSENTHIHIFSFTGEEMATKAD
+                     YTLDEESRARIKTRLFTIRQEMANRGLWDSFRQSERGEETIEEKFEITGTMRRLADQS
+                     LPPNFSCLENFRAYVDGFEPNGCIEGKLSQMSKEVNAQIEPFLKTTPRPIKLPSGLPC
+                     YQRSKFLLMDALKLSIEDPSHEGEGIPLYDAIKCIKTFFGWKEPYIVKPHEKGINSNY
+                     LLSWKQVLSELQDIENEEKIPRTKNMKKTSQLKWALGENMAPEKVDFGNCRDISDLKQ
+                     YDSEEPELRSLSSWIQSEFNKACELTDSVWIELDEIGEDVAPIEHIASMRRNYFTAEV
+                     SHCRATEYIMKGVYINTALLNASCAAMDDFQLIPMISKCRTKEGRRKTNLYGFIIKGR
+                     SHLRNDTDVVNFVSMEFSLTDPRLEPYKWEKYCVLEIGDMLLRSAIGQISRPMFLYVR
+                     TNGTSKVKMKWGMEMRRCLLQSLQQIESMIEAESSVKEKDMTKEFFENKSEAWPIGES
+                     PKGVEEGSIGKVCRTLLAKSVFNSLYASPQLEGFXAXSRKLLLIVQALRDKLEPGTFD
+                     LGGLYEAIEECLINDPWVLLNASWFNSFLTHALK"
+     gene            13..772
+                     /gene="PA-X"
+     CDS             join(13..582,584..772)
+                     /gene="PA-X"
+                     /ribosomal_slippage
+                     /codon_start=1
+                     /product="PA-X protein"
+                     /protein_id="ANM98666.1"
+                     /translation="MEDFVRQCFNPMIVELAEKAMKEYGEDLKIETNKFAAICTHLEV
+                     CFMYSDFHFINEQGESIVVELDDPNALLKHRFEIIEGRDRTMAWTVVNSICNTTGAGK
+                     PKFLPDLYDYKENRFIEIGVTRREVHIYYLEKANKIKSENTHIHIFSFTGEEMATKAD
+                     YTLDEESRARIKTRLFTIRQEMANRGLWDSFVSPKEAKKQLKKNLKSQELCAGLPTKV
+                     SHRTSPALRILEPMWMDSNRTAALRASFLKCPKK"
+ORIGIN      
+        1 tactgattca aaatggaaga ttttgtgcga caatgcttca acccgatgat tgtcgaactt
+       61 gcagaaaaag caatgaaaga gtatggggag gatctgaaaa ttgaaaccaa caaatttgca
+      121 gcaatatgca ctcacttgga ggtgtgtttc atgtattcag atttccattt catcaatgaa
+      181 caaggcgaat caatagtagt agaacttgac gatccaaatg cactgttaaa gcacagattt
+      241 gaaataatcg aggggagaga cagaacaatg gcctggacag tagtaaacag tatctgcaac
+      301 actactggag ctggaaaacc gaagtttcta ccggatttgt atgattacaa agagaacaga
+      361 ttcatcgaaa ttggagtaac aaggagagaa gtccacatat attaccttga aaaggccaat
+      421 aagattaaat ctgagaacac acacattcac attttttcat tcactgggga ggaaatggcc
+      481 acaaaggcag actacactct cgacgaggaa agtagggcta ggatcaaaac caggctgttt
+      541 accataagac aagaaatggc caacagaggt ctctgggatt cctttcgtca gtccgaaaga
+      601 ggcgaagaaa caattgaaga aaaatttgaa atcacaggaa ctatgcgcag gcttgccgac
+      661 caaagtctcc caccgaactt ctcctgcctt gagaatttta gagcctatgt ggatggattc
+      721 gaaccgaacg gctgcattga gggcaagctt tctcaaatgt ccaaagaagt gaatgcccaa
+      781 attgaacctt ttctgaagac aacaccaaga ccaatcaaac ttcctagtgg acttccttgt
+      841 tatcagcgat ccaaattcct cctgatggat gctttgaaat tgagcattga agacccaagt
+      901 cacgaaggag aagggatccc attatatgat gcgatcaagt gcataaaaac attctttgga
+      961 tggaaagaac cttatatagt caaaccacac gaaaagggaa taaattcaaa ttacctgctg
+     1021 tcatggaagc aagtactgtc agaattgcag gacattgaaa atgaggagaa gattccaaga
+     1081 actaaaaaca tgaagaaaac gagtcaactg aagtgggctc ttggtgaaaa catggcacca
+     1141 gagaaggtag actttggaaa ctgcagagac ataagcgatt tgaagcaata tgatagtgaa
+     1201 gaacctgaat taaggtcact ttcaagctgg atacagagtg agttcaacaa ggcctgtgag
+     1261 ctaactgatt cagtctggat agagctcgat gaaattggag aggacgtagc cccaattgaa
+     1321 cacattgcaa gcatgagaag gaattatttc acagcagagg tgtcccattg tagagctact
+     1381 gaatacataa tgaaaggggt atacattaac actgccctgc tcaatgcatc ctgtgcagca
+     1441 atggacgatt ttcaactaat tcccatgata agcaagtgca gaactaaaga gggaaggcga
+     1501 aaaaccaatt tatatggatt catcataaag ggaagatctc atctgaggaa tgacacagac
+     1561 gtggtaaact ttgtgagcat ggagttttct ctcacagatc cgagacttga accatataaa
+     1621 tgggagaaat attgtgtcct tgagatagga gatatgttac taaggagtgc cataggccaa
+     1681 atttcaaggc cgatgttctt gtatgtgagg acaaacggaa catcaaaagt caaaatgaaa
+     1741 tggggaatgg agatgagacg ttgcctcctt cagtcactcc agcagatcga gagcatgatt
+     1801 gaagccgagt cctcagttaa agagaaagac atgaccaaag agttttttga gaataaatct
+     1861 gaagcatggc ccattgggga gtcccccaaa ggagtggaag aaggttccat tgggaaagtc
+     1921 tgtaggactc tattggctaa gtcagtattc aatagcctgt atgcatcacc acaattggaa
+     1981 ggatttkcag carwgtcaag aaaactgctc cttattgttc aggctcttag ggacaaactc
+     2041 gaacctggga cctttgatct tggggggcta tatgaagcaa ttgaggagtg cctgattaat
+     2101 gatccctggg ttttgctcaa tgcgtcttgg ttcaactcct tcctgacaca tgcattaaaa
+     2161 tagttatagc agtgctacta tttgttatcc gtactgtcca aaaaagta
+//
+LOCUS       KX414257                1737 bp    cRNA    linear   VRL 24-AUG-2017
+DEFINITION  Influenza A virus (A/Washington/17/2016(H3N2)) segment 4
+            hemagglutinin (HA) gene, complete cds.
+ACCESSION   KX414257
+VERSION     KX414257.1
+KEYWORDS    .
+SOURCE      Influenza A virus (A/Washington/17/2016(H3N2))
+  ORGANISM  Influenza A virus (A/Washington/17/2016(H3N2))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus.
+REFERENCE   1  (bases 1 to 1737)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Influenza Sequencing Activity group
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1737)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUN-2016) WHO Collaborating Center for Surveillance,
+            Epidemiology and Control of Influenza, Influenza Division, Centers
+            for Disease Control and Prevention, 1600 Clifton Road, N.E.,
+            Atlanta, GA 30333, USA
+COMMENT     ##FluData-START##
+            EPI_ISOLATE_ID        :: EPI_ISL_215274
+            NAME                  :: A/Washington/17/2016
+            TYPE                  :: H3N2
+            Segment_name          :: HA
+            PASSAGE               :: S2 (2016-02-15)
+            LOCATION              :: United States / Washington
+            COLLECT_DATE          :: 19-Jan-2016
+            RESIST_TO_OSELTAMIVIR :: Sensitive
+            RESIST_TO_ZANAMVIR    :: Sensitive
+            SPECIMEN_ID           :: GH-150160-2 ORIGINAL
+            SENDER_LAB            :: Marshfield Clinic Research Foundation
+            SEQLAB_SAMPLE_ID      :: 3025624705
+            EPI_SEQUENCE_ID       :: EPI727515
+            ##FluData-END##
+FEATURES             Location/Qualifiers
+     source          1..1737
+                     /organism="Influenza A virus (A/Washington/17/2016(H3N2))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Washington/17/2016"
+                     /serotype="H3N2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:1866150"
+                     /segment="4"
+                     /country="USA"
+                     /collection_date="19-Jan-2016"
+                     /note="passage details: S2 (02/15/2016)"
+     gene            18..1718
+                     /gene="HA"
+     CDS             18..1718
+                     /gene="HA"
+                     /function="receptor binding and fusion protein"
+                     /codon_start=1
+                     /product="hemagglutinin"
+                     /protein_id="ANM98667.1"
+                     /translation="MKTIIALSYILCLVFAQKIPGNDNSTATLCLGHHAVPNGTIVKT
+                     ITNDRIEVTNATELVQNSSIGEICDSPHQILDGENCTLIDALLGDPQCDGFQNKKWDL
+                     FVERSKAYSNCYPYDVPDYASLRSLVASSGTLEFNNESFNWTGVTQNGTSSACIRRSS
+                     SSFFSRLNWLTHLNYTYPALNVTMPNKEQFDKLYIWGVHHPGTDKDQIFLYAQSSGRI
+                     TVSTKRSQQAVIPNIGSRPRIRDIPSRISIYWTIVKPGDILLINSTGNLIAPRGYFKI
+                     RSGKSSIMRSDAPIGKCKSECITPNGSIPNDKPFQNVNRITYGACPRYVKHSTLKLAT
+                     GMRNVPEKQTRGIFGAIAGFIENGWEGMVDGWYGFRHQNSEGRGQAADLKSTQAAIDQ
+                     INGKLNRLIGKTNEKFHQIEKEFSEVEGRVQDLEKYVEDTKIDLWSYNAELLVALENQ
+                     HTIDLTDSEMNKLFEKTKKQLRENAEDMGNGCFKIYHKCDNACIGSIRNETYDHNVYR
+                     DEALNNRFQIKGVELKSGYKDWILWISFAISCFLLCVALLGFIMWACQKGNIRCNICI
+                     "
+     sig_peptide     18..65
+                     /gene="HA"
+     mat_peptide     66..1052
+                     /gene="HA"
+                     /product="HA1"
+     mat_peptide     1053..1715
+                     /gene="HA"
+                     /product="HA2"
+ORIGIN      
+        1 ggataattct attaaccatg aagactatca ttgctttgag ctacattcta tgtctggttt
+       61 tcgctcaaaa aattcctgga aatgacaata gcacggcaac gctgtgcctt gggcaccatg
+      121 cagtaccaaa cggaacgata gtgaaaacaa tcacaaatga ccgaattgaa gttactaatg
+      181 ctactgagtt ggttcagaat tcctcaatag gtgaaatatg cgacagtcct catcagatcc
+      241 ttgatggaga gaactgcaca ctaatagatg ctctattggg agaccctcag tgtgatggct
+      301 ttcaaaataa gaaatgggac ctttttgttg aacgaagcaa agcctacagc aactgttacc
+      361 cttatgatgt gccggattat gcctccctta ggtcactagt tgcctcatcc ggcacactgg
+      421 agtttaacaa tgaaagcttc aattggactg gagtcactca aaacggaaca agttctgctt
+      481 gcataaggag atctagtagt agtttcttta gtagattaaa ttggttgacc cacttaaact
+      541 acacatatcc agcattgaac gtgactatgc caaacaagga acaatttgac aaattgtaca
+      601 tttggggggt tcaccacccg ggtacggaca aggaccaaat cttcctgtat gctcaatcat
+      661 caggaagaat cacagtatct accaaaagaa gccaacaagc tgtaatccca aatatcggat
+      721 ctagacccag aataagggat atccctagca gaataagcat ctattggaca atagtaaaac
+      781 cgggagacat acttttgatt aacagcacag ggaatctaat tgctcctagg ggttacttca
+      841 aaatacgaag tgggaaaagc tcaataatga gatcagatgc acccattggc aaatgcaagt
+      901 ctgaatgcat cactccaaat ggaagcattc ccaatgacaa accattccaa aatgtaaaca
+      961 ggatcacata cggggcctgt cccagatatg ttaagcatag cactctgaaa ttggcaacag
+     1021 gaatgcgaaa tgtaccagag aaacaaacta gaggcatatt tggcgcaata gcgggtttca
+     1081 tagaaaatgg ttgggaggga atggtggatg gttggtacgg tttcaggcat caaaattctg
+     1141 agggaagagg acaagcagca gatctcaaaa gcactcaagc agcaatcgat caaatcaatg
+     1201 ggaagctgaa tcggttgatc gggaaaacca acgagaaatt ccatcagatt gaaaaagaat
+     1261 tctcagaagt agaaggaaga gttcaagacc ttgagaaata tgttgaggac actaaaatag
+     1321 atctctggtc atacaacgcg gagcttcttg ttgccctgga gaaccaacat acaattgatc
+     1381 taactgactc agaaatgaac aaactgtttg aaaaaacaaa gaagcaactg agggaaaatg
+     1441 ctgaggatat gggaaatggt tgtttcaaaa tataccacaa atgtgacaat gcctgcatag
+     1501 gatcaataag aaatgaaact tatgaccaca atgtgtacag ggatgaagca ttaaacaacc
+     1561 ggttccagat caagggagtt gagctgaagt cagggtacaa agattggatc ctatggattt
+     1621 cctttgccat atcatgtttt ttgctttgtg ttgctttgtt ggggttcatc atgtgggcct
+     1681 gccaaaaggg caacattaga tgcaacattt gcatttgagt gcattagtta aaaacac
+//
+LOCUS       KX414258                1542 bp    cRNA    linear   VRL 24-AUG-2017
+DEFINITION  Influenza A virus (A/Washington/17/2016(H3N2)) segment 5
+            nucleocapsid protein (NP) gene, complete cds.
+ACCESSION   KX414258
+VERSION     KX414258.1
+KEYWORDS    .
+SOURCE      Influenza A virus (A/Washington/17/2016(H3N2))
+  ORGANISM  Influenza A virus (A/Washington/17/2016(H3N2))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus.
+REFERENCE   1  (bases 1 to 1542)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Influenza Sequencing Activity group
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1542)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUN-2016) WHO Collaborating Center for Surveillance,
+            Epidemiology and Control of Influenza, Influenza Division, Centers
+            for Disease Control and Prevention, 1600 Clifton Road, N.E.,
+            Atlanta, GA 30333, USA
+COMMENT     ##FluData-START##
+            EPI_ISOLATE_ID        :: EPI_ISL_215274
+            NAME                  :: A/Washington/17/2016
+            TYPE                  :: H3N2
+            Segment_name          :: NP
+            PASSAGE               :: S2 (2016-02-15)
+            LOCATION              :: United States / Washington
+            COLLECT_DATE          :: 19-Jan-2016
+            RESIST_TO_OSELTAMIVIR :: Sensitive
+            RESIST_TO_ZANAMVIR    :: Sensitive
+            SPECIMEN_ID           :: GH-150160-2 ORIGINAL
+            SENDER_LAB            :: Marshfield Clinic Research Foundation
+            SEQLAB_SAMPLE_ID      :: 3025624705
+            EPI_SEQUENCE_ID       :: EPI727508
+            ##FluData-END##
+FEATURES             Location/Qualifiers
+     source          1..1542
+                     /organism="Influenza A virus (A/Washington/17/2016(H3N2))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Washington/17/2016"
+                     /serotype="H3N2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:1866150"
+                     /segment="5"
+                     /country="USA"
+                     /collection_date="19-Jan-2016"
+                     /note="passage details: S2 (02/15/2016)"
+     gene            34..1530
+                     /gene="NP"
+     CDS             34..1530
+                     /gene="NP"
+                     /codon_start=1
+                     /product="nucleocapsid protein"
+                     /protein_id="ANM98668.1"
+                     /translation="MASQGTKRSYEQMETDGDRQNATEIRASVGKMIDGIGRFYIQMC
+                     TELKLSDHEGRLIQNSLTIEKMVLSAFDERRNKYLEEHPSAGKDPKKTGGPIYRRVDG
+                     KWMRELVLYDKEEIRRIWRQANNGEDATSGLTHIMIWHSNLNDATYQRTRALVRTGMD
+                     PRMCSLMQGSTLPRRSGAAGAAVKGIGTMVMELIRMVKRGINDRNFWRGENGRKTRSA
+                     YERMCNILKGKFQTAAQRAMVDQVRESRNPGNAEIEDLIFLARSALILRGSVAHKSCL
+                     PACAYGPAVSSGYDFEKEGYSLVGIDPFKLLQNSQIYSLIRPNENPAHKSQLVWMACH
+                     SAAFEDLRLLSFIRGTKVSPRGKLSTRGVQIASNENMDNMGSSTLELRSGYWAIRTRS
+                     GGNTNQQRASAGQTSVQPTFSVQRNLPFEKSTIMAAFTGNTEGRTSDMRAEIIRMMEG
+                     AKPEEVSFRGRGVFELSDEKAANPIVPSFDMSNEGSYFFGDNAEEYDN"
+ORIGIN      
+        1 gttgataatc actcactgag tgacatcaaa atcatggcgt cccaaggcac caaacggtct
+       61 tatgaacaga tggaaactga tggagatcgc cagaatgcaa ctgagattag ggcatccgtc
+      121 gggaagatga ttgatggaat tgggagattc tacatccaaa tgtgcactga acttaaactc
+      181 agtgatcatg aaggacggtt gatccaaaac agcttgacaa tagagaaaat ggtactctct
+      241 gcttttgatg aaagaaggaa taaatacctg gaagaacacc ccagcgcggg gaaagatccc
+      301 aagaaaactg gggggcccat atacaggaga gtcgatggga aatggatgag ggaactcgtc
+      361 ctttatgaca aagaagaaat aaggcgaatc tggcgccaag ccaacaatgg tgaggatgct
+      421 acatctggtc taactcacat aatgatttgg cattccaatt tgaatgatgc aacataccag
+      481 aggacaagag ctcttgttcg gactggaatg gatcccagaa tgtgctctct gatgcagggc
+      541 tcgactctcc ctagaaggtc cggagctgca ggtgctgcag tcaaaggaat cggaacaatg
+      601 gtgatggaac tgatcagaat ggtcaaacgg gggatcaacg atcgaaattt ttggagaggt
+      661 gagaatgggc ggaaaacaag aagtgcttat gagagaatgt gcaacattct taaaggaaaa
+      721 tttcaaacag ctgcacaaag agcaatggtg gatcaagtta gagaaagtcg gaacccagga
+      781 aacgctgaga tcgaagatct catattttta gcaagatctg cactgatatt gagaggatca
+      841 gttgctcaca aatcttgcct acctgcctgt gcatatggac ctgcagtatc cagtggttac
+      901 gactttgaaa aagagggata ttccttggtg ggaatagacc ctttcaaact acttcaaaat
+      961 agccaaatat acagcttaat cagacctaat gagaatccag cacacaagag tcagctggtg
+     1021 tggatggcat gccattctgc tgcatttgaa gatttaagat tgttaagctt catcagaggg
+     1081 acaaaagtat ctcctcgggg gaaactgtca actagaggag tacaaattgc ttcaaatgag
+     1141 aacatggata atatgggatc aagcactctt gaactgagaa gcgggtactg ggccataagg
+     1201 accaggagtg gaggaaacac taatcaacag agggcctccg caggccaaac cagtgtgcaa
+     1261 cctacgtttt ctgtacaaag aaacctccca tttgaaaagt caaccatcat ggcagcattc
+     1321 actggaaata cggagggaag aacttcagac atgagggcag aaatcataag gatgatggaa
+     1381 ggtgcaaaac cagaagaagt gtcattccgg gggaggggag ttttcgagct ctcagacgag
+     1441 aaggcagcga acccgatcgt gccctctttt gatatgagta acgaaggatc ttatttcttc
+     1501 ggagacaatg cagaagagta cgacaattaa ggaaaaaaat ac
+//
+LOCUS       KX414259                1441 bp    cRNA    linear   VRL 24-AUG-2017
+DEFINITION  Influenza A virus (A/Washington/17/2016(H3N2)) segment 6
+            neuraminidase (NA) gene, complete cds.
+ACCESSION   KX414259
+VERSION     KX414259.1
+KEYWORDS    .
+SOURCE      Influenza A virus (A/Washington/17/2016(H3N2))
+  ORGANISM  Influenza A virus (A/Washington/17/2016(H3N2))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus.
+REFERENCE   1  (bases 1 to 1441)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Influenza Sequencing Activity group
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1441)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUN-2016) WHO Collaborating Center for Surveillance,
+            Epidemiology and Control of Influenza, Influenza Division, Centers
+            for Disease Control and Prevention, 1600 Clifton Road, N.E.,
+            Atlanta, GA 30333, USA
+COMMENT     ##FluData-START##
+            EPI_ISOLATE_ID        :: EPI_ISL_215274
+            NAME                  :: A/Washington/17/2016
+            TYPE                  :: H3N2
+            Segment_name          :: NA
+            PASSAGE               :: S2 (2016-02-15)
+            LOCATION              :: United States / Washington
+            COLLECT_DATE          :: 19-Jan-2016
+            RESIST_TO_OSELTAMIVIR :: Sensitive
+            RESIST_TO_ZANAMVIR    :: Sensitive
+            SPECIMEN_ID           :: GH-150160-2 ORIGINAL
+            SENDER_LAB            :: Marshfield Clinic Research Foundation
+            SEQLAB_SAMPLE_ID      :: 3025624705
+            EPI_SEQUENCE_ID       :: EPI727514
+            ##FluData-END##
+FEATURES             Location/Qualifiers
+     source          1..1441
+                     /organism="Influenza A virus (A/Washington/17/2016(H3N2))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Washington/17/2016"
+                     /serotype="H3N2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:1866150"
+                     /segment="6"
+                     /country="USA"
+                     /collection_date="19-Jan-2016"
+                     /note="passage details: S2 (02/15/2016)"
+     gene            8..1417
+                     /gene="NA"
+     CDS             8..1417
+                     /gene="NA"
+                     /codon_start=1
+                     /product="neuraminidase"
+                     /protein_id="ANM98669.1"
+                     /translation="MNPNQKIITIGSVSLTISTICFFMQIAILITTVTLHFKQYEFNS
+                     PPNNQVMLCEPTIIERNITEIVYLTNTTIEKEICPKPAEYRNWSKPQCGITGFAPFSK
+                     DNSIRLSAGGDIWVTREPYVSCDPDKCYQFALGQGTTLNNVHSNNTVRDRTPYRTLLM
+                     NELGVPFHLGTKQVCIAWSSSSCHDGKAWLHVCITGDDKNATASFIYNGRLVDSVVSW
+                     SKDILRTQESECVCINGTCTVVMTDGNATGKADTKILFIEEGKIVHTSKLSGSAQHVE
+                     ECSCYPRYPGVRCVCRDNWKGSNRPIVDINIKDHSIVSSYVCSGLVGDTPRKNDSSSS
+                     SHCLNPNNEEGGHGVKGWAFDDGNDVWMGRTINETSRLGYETFKVVEGWSNPKSKLQI
+                     NRQVIVDRGDRSGYSGIFSVEGKSCINRCFYVELIRGRKEETEVLWTSNSIVVFCGTS
+                     GTYGTGSWPDGADLNLMHI"
+ORIGIN      
+        1 agtaaagatg aatccaaatc aaaagataat aacgattggc tctgtttctc tcaccatttc
+       61 cacaatatgc ttcttcatgc aaattgccat cctgataact actgtaacat tgcatttcaa
+      121 gcaatatgaa ttcaactccc ccccaaacaa ccaagtgatg ctgtgtgaac caacaataat
+      181 agaaagaaac ataacagaga tagtgtattt gaccaacacc accatagaga aggaaatatg
+      241 ccccaaacca gcagaataca gaaattggtc aaaaccgcaa tgtggcatta caggatttgc
+      301 acctttctct aaggacaatt cgattaggct ttccgctggt ggggacatct gggtgacaag
+      361 agaaccttat gtgtcatgcg atcctgacaa gtgttatcaa tttgcccttg gacagggaac
+      421 aacactaaac aacgtgcatt caaataacac agtacgtgat aggacccctt atcggactct
+      481 attgatgaat gagttgggtg ttcctttcca tctggggacc aagcaagtgt gcatagcatg
+      541 gtccagctca agttgtcacg atggaaaagc atggctgcat gtttgtataa cgggggatga
+      601 taaaaatgca actgctagct tcatttacaa tgggaggctt gtagatagtg ttgtttcatg
+      661 gtccaaagat attctcagga cccaggagtc agaatgcgtt tgtatcaatg gaacttgtac
+      721 agtagtaatg actgatggaa atgctacagg aaaagctgat actaaaatac tattcattga
+      781 ggaggggaaa atcgttcata ctagcaaatt gtcaggaagt gctcagcatg tcgaagagtg
+      841 ctcttgctat cctcgatatc ctggtgtcag atgtgtctgc agagacaact ggaaaggatc
+      901 caaccggccc atcgtagata taaacataaa ggatcatagc attgtttcca gttatgtgtg
+      961 ttcaggactt gttggagaca cacccagaaa aaacgacagc tccagcagta gccattgttt
+     1021 gaatcctaac aatgaagaag gtggtcatgg agtgaaaggc tgggcctttg atgatggaaa
+     1081 tgacgtgtgg atggggagaa caatcaacga gacgtcacgc ttagggtatg aaaccttcaa
+     1141 agtcgttgaa ggctggtcca accctaagtc caaattgcag ataaataggc aagtcatagt
+     1201 tgacagaggt gataggtccg gttattctgg tattttctct gttgaaggca aaagctgcat
+     1261 caatcggtgc ttttatgtgg agttgattag gggaagaaaa gaggaaactg aagtcttgtg
+     1321 gacctcaaac agtattgttg tgttttgtgg cacctcaggt acatatggaa caggctcatg
+     1381 gcctgatggg gcggacctca atctcatgca tatataagct ttcgcaattt tagaaaaaac
+     1441 t
+//
+LOCUS       KX414260                1002 bp    cRNA    linear   VRL 24-AUG-2017
+DEFINITION  Influenza A virus (A/Washington/17/2016(H3N2)) segment 7 matrix
+            protein 2 (M2) and matrix protein 1 (M1) genes, complete cds.
+ACCESSION   KX414260
+VERSION     KX414260.1
+KEYWORDS    .
+SOURCE      Influenza A virus (A/Washington/17/2016(H3N2))
+  ORGANISM  Influenza A virus (A/Washington/17/2016(H3N2))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus.
+REFERENCE   1  (bases 1 to 1002)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Influenza Sequencing Activity group
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1002)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUN-2016) WHO Collaborating Center for Surveillance,
+            Epidemiology and Control of Influenza, Influenza Division, Centers
+            for Disease Control and Prevention, 1600 Clifton Road, N.E.,
+            Atlanta, GA 30333, USA
+COMMENT     ##FluData-START##
+            EPI_ISOLATE_ID        :: EPI_ISL_215274
+            NAME                  :: A/Washington/17/2016
+            TYPE                  :: H3N2
+            Segment_name          :: M
+            PASSAGE               :: S2 (2016-02-15)
+            LOCATION              :: United States / Washington
+            COLLECT_DATE          :: 19-Jan-2016
+            RESIST_TO_OSELTAMIVIR :: Sensitive
+            RESIST_TO_ZANAMVIR    :: Sensitive
+            SPECIMEN_ID           :: GH-150160-2 ORIGINAL
+            SENDER_LAB            :: Marshfield Clinic Research Foundation
+            SEQLAB_SAMPLE_ID      :: 3025624705
+            EPI_SEQUENCE_ID       :: EPI727510
+            ##FluData-END##
+FEATURES             Location/Qualifiers
+     source          1..1002
+                     /organism="Influenza A virus (A/Washington/17/2016(H3N2))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Washington/17/2016"
+                     /serotype="H3N2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:1866150"
+                     /segment="7"
+                     /country="USA"
+                     /collection_date="19-Jan-2016"
+                     /note="passage details: S2 (02/15/2016)"
+     gene            14..995
+                     /gene="M2"
+     CDS             join(14..39,728..995)
+                     /gene="M2"
+                     /codon_start=1
+                     /product="matrix protein 2"
+                     /protein_id="ANM98671.1"
+                     /translation="MSLLTEVETPIRNEWGCRCNDSSDPLVVAANIIGILHLILWILD
+                     RLFFKCVYRLFKHGLKRGPSTEGVPESMREEYRKEQQNAVDADDSHFVSIKLE"
+     gene            14..772
+                     /gene="M1"
+     CDS             14..772
+                     /gene="M1"
+                     /codon_start=1
+                     /product="matrix protein 1"
+                     /protein_id="ANM98670.1"
+                     /translation="MSLLTEVETYVLSIVPSGPLKAEIAQRLEDVFAGKNTDLEALME
+                     WLKTRPILSPLTKGILGFVFTLTVPSERGLQRRRFVQNALNGNGDPNNMDKAVKLYRK
+                     LKREITFHGAKEIALSYSAGALASCMGLIYNRMGAVTTEVAFGLVCATCEQIADSQHR
+                     SHRQMVATTNPLIKHENRMVLASTTAKAMEQMAGSSEQAAEAMEIASQARQMVQAMRA
+                     IGTHPSSSTGLRDNLLENLQTYQKRMGVQMQRFK"
+ORIGIN      
+        1 tagatattga aagatgagcc ttctaaccga ggtcgaaacg tatgttctct ctatcgttcc
+       61 atcaggcccc ctcaaagccg agatcgcgca gagacttgaa gatgtctttg ctgggaaaaa
+      121 cacagatctt gaggctctca tggaatggct aaagacaaga ccaattctgt cacctttgac
+      181 taaggggatt ttagggtttg ttttcacgct caccgtgccc agtgagcgag gactgcagcg
+      241 tagacgcttt gtccaaaatg ccctcaatgg gaatggagac ccaaataaca tggacaaagc
+      301 agttaaactg tataggaaac ttaagaggga gataacgttc cacggggcca aagaaatagc
+      361 tctcagttat tctgctggtg cacttgccag ttgcatgggc ctcatataca ataggatggg
+      421 ggctgtaacc actgaagtgg catttggcct ggtgtgtgca acatgtgagc agattgctga
+      481 ttcccagcac aggtctcata ggcagatggt ggcaacaacc aatccattaa taaaacatga
+      541 gaacagaatg gttttggcca gcactacagc taaggctatg gagcaaatgg ctggatcaag
+      601 tgagcaggca gcggaggcca tggagattgc tagtcaggcc aggcagatgg tgcaggcaat
+      661 gagagccatt gggactcatc ctagttccag tactggtcta agagataatc ttcttgaaaa
+      721 tttgcagacc tatcagaaac gaatgggggt gcagatgcaa cgattcaagt gacccgcttg
+      781 ttgttgccgc gaatatcatt gggatcttgc acttgatatt gtggattctt gatcgtcttt
+      841 ttttcaaatg cgtctatcga ctcttcaaac acggccttaa aagaggccct tctacggaag
+      901 gagtacctga gtctatgagg gaagaatatc gaaaggaaca gcagaatgct gtggatgctg
+      961 acgacagtca ttttgtcagc ataaagttgg agtaaaaaac ta
+//
+LOCUS       KX414261                 865 bp    cRNA    linear   VRL 24-AUG-2017
+DEFINITION  Influenza A virus (A/Washington/17/2016(H3N2)) segment 8 nuclear
+            export protein (NEP) and nonstructural protein 1 (NS1) genes,
+            complete cds.
+ACCESSION   KX414261
+VERSION     KX414261.1
+KEYWORDS    .
+SOURCE      Influenza A virus (A/Washington/17/2016(H3N2))
+  ORGANISM  Influenza A virus (A/Washington/17/2016(H3N2))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 865)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Influenza Sequencing Activity group
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 865)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUN-2016) WHO Collaborating Center for Surveillance,
+            Epidemiology and Control of Influenza, Influenza Division, Centers
+            for Disease Control and Prevention, 1600 Clifton Road, N.E.,
+            Atlanta, GA 30333, USA
+COMMENT     ##FluData-START##
+            EPI_ISOLATE_ID        :: EPI_ISL_215274
+            NAME                  :: A/Washington/17/2016
+            TYPE                  :: H3N2
+            Segment_name          :: NS
+            PASSAGE               :: S2 (2016-02-15)
+            LOCATION              :: United States / Washington
+            COLLECT_DATE          :: 19-Jan-2016
+            RESIST_TO_OSELTAMIVIR :: Sensitive
+            RESIST_TO_ZANAMVIR    :: Sensitive
+            SPECIMEN_ID           :: GH-150160-2 ORIGINAL
+            SENDER_LAB            :: Marshfield Clinic Research Foundation
+            SEQLAB_SAMPLE_ID      :: 3025624705
+            EPI_SEQUENCE_ID       :: EPI727509
+            ##FluData-END##
+FEATURES             Location/Qualifiers
+     source          1..865
+                     /organism="Influenza A virus (A/Washington/17/2016(H3N2))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Washington/17/2016"
+                     /serotype="H3N2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:1866150"
+                     /segment="8"
+                     /country="USA"
+                     /collection_date="19-Jan-2016"
+                     /note="passage details: S2 (02/15/2016)"
+     gene            15..852
+                     /gene="NEP"
+                     /gene_synonym="NS2"
+     CDS             join(15..44,517..852)
+                     /gene="NEP"
+                     /gene_synonym="NS2"
+                     /note="nonstructural protein 2"
+                     /codon_start=1
+                     /product="nuclear export protein"
+                     /protein_id="ANM98673.1"
+                     /translation="MDSNTVSSFQDILLRMSKMQLGSSSEDLNGMITQFESLKIYRDS
+                     LGEAVMRMGDLHLLQNRNGKWREQLGQKFEEIRWLIEEVRHRLRTTENSFEQITFMQA
+                     LQLLFEVEQEIRTFSFQLI"
+     gene            15..707
+                     /gene="NS1"
+     CDS             15..707
+                     /gene="NS1"
+                     /codon_start=1
+                     /product="nonstructural protein 1"
+                     /protein_id="ANM98672.1"
+                     /translation="MDSNTVSSFQVDCFLWHIRKQVVDQKLSDAPFLDRLRRDQRSLR
+                     GRGNTLGLDIKSATHVGKQIVEKILKGESDEALKMTMVSTPASRYITDMTIEELSRNW
+                     FMLMPKQKVEGPLCIRMDQAIMEKNIMLKANFNVIFGRLETIVLLRAFTEEGAIVGEI
+                     SPLPSFPGHTIEDVKNAIGVLIGGLEWNDNTVRVSKNLQRFAWRSSNENGGPPLTPKQ
+                     KREMARTARSEV"
+ORIGIN      
+        1 gtgacaaaga cataatggat tccaacactg tgtcaagttt ccaggtagat tgctttcttt
+       61 ggcatatccg gaaacaagtt gtagaccaaa aactgagtga tgccccattc ctcgatcggc
+      121 ttcgccgaga tcagaggtcc ctaaggggaa gaggcaatac tctcggtcta gacatcaaat
+      181 cagccaccca tgttggaaag caaatcgtag aaaagattct gaaaggagaa tctgatgagg
+      241 cacttaaaat gaccatggtc tcaacacctg cttcgcgata cataactgac atgactattg
+      301 aggaattgtc aagaaactgg ttcatgctaa tgcccaagca gaaagtggaa ggacctcttt
+      361 gcatcagaat ggaccaggca atcatggaga aaaacatcat gttaaaagcg aatttcaatg
+      421 tgatttttgg ccgactagag accatagtat tactaagggc tttcaccgaa gagggagcaa
+      481 ttgttggcga aatctcacca ttgccttctt ttccaggaca tactattgag gatgtcaaaa
+      541 atgcaattgg ggtcctcatc ggaggacttg aatggaatga taacacagtt cgagtctcta
+      601 aaaatctaca gagattcgct tggagaagca gtaatgagaa tgggggacct ccacttactc
+      661 caaaacagaa acgggaaatg gcgagaacag ctaggtcaga agtttgaaga gataagatgg
+      721 ctaattgaag aggtgagaca cagattaaga acaactgaaa atagctttga acaaataaca
+      781 ttcatgcaag cattacaact actgtttgaa gtggaacagg agataagaac tttctcattt
+      841 cagcttattt aatgataaaa aacac
+//

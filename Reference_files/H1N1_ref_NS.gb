@@ -1,0 +1,94 @@
+LOCUS       MK622938                 865 bp    cRNA    linear   VRL 18-MAR-2019
+DEFINITION  Influenza A virus (A/Michigan/45/2015(H1N1)) segment 8 nuclear
+            export protein (NEP) and nonstructural protein 1 (NS1) genes,
+            complete cds.
+ACCESSION   MK622938
+VERSION     MK622938.1
+DBLINK      BioProject: PRJNA37813
+KEYWORDS    .
+SOURCE      Influenza A virus
+  ORGANISM  Influenza A virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus.
+REFERENCE   1  (bases 1 to 865)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Influenza Sequencing Activity group
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 865)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-MAR-2019) WHO Collaborating Center for Surveillance,
+            Epidemiology and Control of Influenza, Influenza Division, Centers
+            for Disease Control and Prevention, 1600 Clifton Road, N.E.,
+            Atlanta, GA 30333, USA
+COMMENT     ##FluData-START##
+            EPI_ISOLATE_ID   :: EPI_ISL_336680
+            NAME             :: A/Michigan/45/2015
+            TYPE             :: H1N1
+            Segment_name     :: NS
+            HOST_AGE         :: 54
+            HOST_GENDER      :: F
+            PASSAGE          :: QMC2C3 (2019-01-18)
+            LOCATION         :: United States / Michigan
+            COLLECT_DATE     :: 07-Sep-2015
+            Lineage          :: A(H1N1)pdm09
+            SPECIMEN_ID      :: CL15-430392 ORIGINAL
+            SENDER_LAB       :: Michigan Department of Community Health
+            SEQLAB_SAMPLE_ID :: 3000413709
+            EPI_SEQUENCE_ID  :: EPI1349885
+            ##FluData-END##
+FEATURES             Location/Qualifiers
+     source          1..865
+                     /organism="Influenza A virus"
+                     /mol_type="viral cRNA"
+                     /strain="A/Michigan/45/2015"
+                     /serotype="H1N1"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:11320"
+                     /segment="8"
+                     /country="USA: Michigan"
+                     /collection_date="07-Sep-2015"
+                     /note="passage details:QMC2C3 (2019-01-18)"
+     gene            15..852
+                     /gene="NEP"
+                     /gene_synonym="NS2"
+     CDS             join(15..44,517..852)
+                     /gene="NEP"
+                     /gene_synonym="NS2"
+                     /note="nonstructural protein 2"
+                     /codon_start=1
+                     /product="nuclear export protein"
+                     /protein_id="QBL89787.1"
+                     /translation="MESNTMSSFQDILMRMSKMQLGSSSEDLSGMVTRFESLKIYRDS
+                     LGEAVMRMGDLHYLQSRNEKWREQLGQKFEEIRWLIEEIRHRLKATENSFEQITFMQA
+                     LQLLLEVEQEIRAFSFQLI"
+     gene            15..674
+                     /gene="NS1"
+     CDS             15..674
+                     /gene="NS1"
+                     /codon_start=1
+                     /product="nonstructural protein 1"
+                     /protein_id="QBL89786.1"
+                     /translation="MESNTMSSFQVDCFLWHIRKRFADNGLGDAPFLDRLRRDQKSLK
+                     GRGNTLGLDIKTATLVGKQIMEWILKEESSETLRMTIASVPTSRYISDMTLEEMSRDW
+                     FMLMPRQKIIGPLCVRLDQAVMDKNIVLEANFSVIFNRLETLILLRAFTEEGAIVGEI
+                     SPLPSLPGHTYEDVKNAVGVLIGGLEWNGNTVRVSENIQRFAWRSCDENGRPSLPPEQ
+                     K"
+ORIGIN      
+        1 gtgacaaaaa cataatggaa tccaacacca tgtcaagctt tcaggtagac tgttttcttt
+       61 ggcatattcg caagcgattt gcagacaatg gattgggtga tgccccattc cttgatcggc
+      121 tacgccgaga tcaaaagtcc ttaaaaggaa gaggcaacac ccttggcctc gacatcaaaa
+      181 cagccactct tgttgggaaa caaattatgg aatggatttt gaaagaggaa tccagcgaga
+      241 cacttagaat gacaattgca tctgtaccta cttcgcgtta catttctgac atgaccctcg
+      301 aggaaatgtc acgagactgg ttcatgctta tgcctaggca aaagataata ggccctcttt
+      361 gcgtgcgatt ggaccaggcg gtcatggata agaacatagt actggaagca aacttcagtg
+      421 taatcttcaa ccgattagag accttgatac tactaagggc tttcactgag gagggagcaa
+      481 tagttggaga aatttcacca ttaccttctc ttccaggaca tacttatgag gatgtcaaaa
+      541 atgcagttgg ggtcctcatc ggaggacttg agtggaatgg taacacggtt cgagtctctg
+      601 aaaatataca gagattcgct tggagaagct gtgatgagaa tgggagacct tcactacctc
+      661 cagagcagaa atgagaagtg gcgggaacaa ttgggacaga aatttgagga aataaggtgg
+      721 ttaattgaag aaatacggca cagattgaaa gcgacagaga atagtttcga acaaataaca
+      781 tttatgcaag ccttacaact actgcttgaa gtagagcaag agataagagc tttctcgttt
+      841 cagcttattt aatgataaaa aacac
+//

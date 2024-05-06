@@ -1,0 +1,94 @@
+LOCUS       KX414261                 865 bp    cRNA    linear   VRL 24-AUG-2017
+DEFINITION  Influenza A virus (A/Washington/17/2016(H3N2)) segment 8 nuclear
+            export protein (NEP) and nonstructural protein 1 (NS1) genes,
+            complete cds.
+ACCESSION   KX414261
+VERSION     KX414261.1
+KEYWORDS    .
+SOURCE      Influenza A virus (A/Washington/17/2016(H3N2))
+  ORGANISM  Influenza A virus (A/Washington/17/2016(H3N2))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1  (bases 1 to 865)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Influenza Sequencing Activity group
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 865)
+  AUTHORS   Jernigan,D., Wentworth,D., Katz,J., Barnes,J., Garten,R. and Xu,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUN-2016) WHO Collaborating Center for Surveillance,
+            Epidemiology and Control of Influenza, Influenza Division, Centers
+            for Disease Control and Prevention, 1600 Clifton Road, N.E.,
+            Atlanta, GA 30333, USA
+COMMENT     ##FluData-START##
+            EPI_ISOLATE_ID        :: EPI_ISL_215274
+            NAME                  :: A/Washington/17/2016
+            TYPE                  :: H3N2
+            Segment_name          :: NS
+            PASSAGE               :: S2 (2016-02-15)
+            LOCATION              :: United States / Washington
+            COLLECT_DATE          :: 19-Jan-2016
+            RESIST_TO_OSELTAMIVIR :: Sensitive
+            RESIST_TO_ZANAMVIR    :: Sensitive
+            SPECIMEN_ID           :: GH-150160-2 ORIGINAL
+            SENDER_LAB            :: Marshfield Clinic Research Foundation
+            SEQLAB_SAMPLE_ID      :: 3025624705
+            EPI_SEQUENCE_ID       :: EPI727509
+            ##FluData-END##
+FEATURES             Location/Qualifiers
+     source          1..865
+                     /organism="Influenza A virus (A/Washington/17/2016(H3N2))"
+                     /mol_type="viral cRNA"
+                     /strain="A/Washington/17/2016"
+                     /serotype="H3N2"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:1866150"
+                     /segment="8"
+                     /country="USA"
+                     /collection_date="19-Jan-2016"
+                     /note="passage details: S2 (02/15/2016)"
+     gene            15..852
+                     /gene="NEP"
+                     /gene_synonym="NS2"
+     CDS             join(15..44,517..852)
+                     /gene="NEP"
+                     /gene_synonym="NS2"
+                     /note="nonstructural protein 2"
+                     /codon_start=1
+                     /product="nuclear export protein"
+                     /protein_id="ANM98673.1"
+                     /translation="MDSNTVSSFQDILLRMSKMQLGSSSEDLNGMITQFESLKIYRDS
+                     LGEAVMRMGDLHLLQNRNGKWREQLGQKFEEIRWLIEEVRHRLRTTENSFEQITFMQA
+                     LQLLFEVEQEIRTFSFQLI"
+     gene            15..707
+                     /gene="NS1"
+     CDS             15..707
+                     /gene="NS1"
+                     /codon_start=1
+                     /product="nonstructural protein 1"
+                     /protein_id="ANM98672.1"
+                     /translation="MDSNTVSSFQVDCFLWHIRKQVVDQKLSDAPFLDRLRRDQRSLR
+                     GRGNTLGLDIKSATHVGKQIVEKILKGESDEALKMTMVSTPASRYITDMTIEELSRNW
+                     FMLMPKQKVEGPLCIRMDQAIMEKNIMLKANFNVIFGRLETIVLLRAFTEEGAIVGEI
+                     SPLPSFPGHTIEDVKNAIGVLIGGLEWNDNTVRVSKNLQRFAWRSSNENGGPPLTPKQ
+                     KREMARTARSEV"
+ORIGIN      
+        1 gtgacaaaga cataatggat tccaacactg tgtcaagttt ccaggtagat tgctttcttt
+       61 ggcatatccg gaaacaagtt gtagaccaaa aactgagtga tgccccattc ctcgatcggc
+      121 ttcgccgaga tcagaggtcc ctaaggggaa gaggcaatac tctcggtcta gacatcaaat
+      181 cagccaccca tgttggaaag caaatcgtag aaaagattct gaaaggagaa tctgatgagg
+      241 cacttaaaat gaccatggtc tcaacacctg cttcgcgata cataactgac atgactattg
+      301 aggaattgtc aagaaactgg ttcatgctaa tgcccaagca gaaagtggaa ggacctcttt
+      361 gcatcagaat ggaccaggca atcatggaga aaaacatcat gttaaaagcg aatttcaatg
+      421 tgatttttgg ccgactagag accatagtat tactaagggc tttcaccgaa gagggagcaa
+      481 ttgttggcga aatctcacca ttgccttctt ttccaggaca tactattgag gatgtcaaaa
+      541 atgcaattgg ggtcctcatc ggaggacttg aatggaatga taacacagtt cgagtctcta
+      601 aaaatctaca gagattcgct tggagaagca gtaatgagaa tgggggacct ccacttactc
+      661 caaaacagaa acgggaaatg gcgagaacag ctaggtcaga agtttgaaga gataagatgg
+      721 ctaattgaag aggtgagaca cagattaaga acaactgaaa atagctttga acaaataaca
+      781 ttcatgcaag cattacaact actgtttgaa gtggaacagg agataagaac tttctcattt
+      841 cagcttattt aatgataaaa aacac
+//
+
