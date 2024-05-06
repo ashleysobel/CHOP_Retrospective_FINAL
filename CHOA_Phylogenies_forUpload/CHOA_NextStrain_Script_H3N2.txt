@@ -1,0 +1,74 @@
+augur index \
+  --sequences data/CHOA_H3N2_HA_phyloseq.fasta \
+  --output results/sequence_index_H3N2.tsv
+
+augur filter \
+  --sequences data/CHOA_H3N2_HA_phyloseq.fasta \
+  --sequence-index results/sequence_index_H3N2.tsv \
+  --metadata data/Final_CHOA_H3N2_HA_metadata.csv \
+  --output results/filtered_H3N2.fasta \
+  --min-date 2013
+
+augur align \
+  --sequences results/filtered_H3N2.fasta \
+  --reference-sequence config/H3N2_Wisc_2005_HA_Ref.gb \
+  --output results/aligned_H3N2.fasta \
+  --fill-gaps
+
+augur tree \
+  --alignment results/aligned_H3N2.fasta \
+  --output results/tree_raw_H3N2.nwk
+
+augur refine \
+  --tree results/tree_raw_H3N2.nwk \
+  --alignment results/aligned_H3N2.fasta \
+  --metadata data/Final_CHOA_H3N2_HA_metadata.csv \
+  --output-tree results/tree_H3N2.nwk \
+  --output-node-data results/branch_lengths_H3N2.json \
+  --timetree \
+  --coalescent opt \
+  --date-confidence \
+  --stochastic-resolve \
+  --date-inference marginal \
+  --max-iter 10 \
+  --clock-filter-iqd 4
+
+augur traits \
+  --tree results/tree_H3N2.nwk \
+  --metadata data/Final_CHOA_H3N2_HA_metadata.csv \
+  --output-node-data results/traits_H3N2.json \
+  --columns whose \
+  --confidence
+
+augur ancestral \
+--tree results/tree_H3N2.nwk \
+--alignment results/aligned_H3N2.fasta \
+--output-node-data results/nt_muts_H3N2.json \
+--inference joint
+
+augur translate \
+--tree results/tree_H3N2.nwk \
+--ancestral-sequences results/nt_muts_H3N2.json \
+--reference-sequence config/H3N2_Wisc_2005_HA_Ref.gb \
+--output-node-data results/aa_muts_H3N2.json
+
+augur clades \
+--tree results/tree_H3N2.nwk \
+--mutations results/nt_muts_H3N2.json \
+      results/aa_muts_H3N2.json \
+--reference config/H3N2_Wisc_2005_HA_Ref.gb \
+--clades config/clades.tsv \
+--output-node-data results/h3n2_clades_H3N2.json
+
+augur export v2 \
+  --tree results/tree_H3N2.nwk \
+  --metadata data/Final_CHOA_H3N2_HA_metadata.csv \
+  --node-data results/branch_lengths_H3N2.json \
+              results/traits_H3N2.json \
+              results/nt_muts_H3N2.json \
+              results/aa_muts_H3N2.json \
+              results/h3n2_clades_H3N2.json \
+  --colors config/colors_h3n2.tsv \
+  --auspice-config config/auspice_config_test.json \
+  --output auspice/CHOA_H3N2_2017_H3N2.json
+

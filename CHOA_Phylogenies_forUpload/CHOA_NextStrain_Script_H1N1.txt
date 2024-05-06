@@ -1,0 +1,73 @@
+augur index \
+  --sequences data/CHOA_H1N1_HA_phyloseq.fasta \
+  --output results/sequence_index_H1N1.tsv
+
+augur filter \
+  --sequences data/CHOA_H1N1_HA_phyloseq.fasta \
+  --sequence-index results/sequence_index_H1N1.tsv \
+  --metadata data/Final_CHOA_H1N1_HA_metadata.csv \
+  --output results/filtered_H1N1.fasta \
+  --min-date 2012
+
+augur align \
+  --sequences results/filtered_H1N1.fasta \
+  --reference-sequence config/reference_H1N1.fasta \
+  --output results/aligned_H1N1.fasta \
+  --fill-gaps
+
+augur tree \
+  --alignment results/aligned_H1N1.fasta \
+  --output results/tree_raw_H1N1.nwk
+
+augur refine \
+  --tree results/tree_raw_H1N1.nwk \
+  --alignment results/aligned_H1N1.fasta \
+  --metadata data/Final_CHOA_H1N1_HA_metadata.csv \
+  --output-tree results/tree_H1N1.nwk \
+  --output-node-data results/branch_lengths_H1N1.json \
+  --timetree \
+  --coalescent opt \
+  --date-confidence \
+  --stochastic-resolve \
+  --date-inference marginal \
+  --max-iter 10 \
+  --clock-filter-iqd 4
+
+augur traits \
+  --tree results/tree_H1N1.nwk \
+  --metadata data/Final_CHOA_H1N1_HA_metadata.csv \
+  --output-node-data results/traits_H1N1.json \
+  --columns whose \
+  --confidence
+
+augur ancestral \
+--tree results/tree_H1N1.nwk \
+--alignment results/aligned_H1N1.fasta \
+--output-node-data results/nt_muts_H1N1.json \
+--inference joint
+
+augur translate \
+--tree results/tree_H1N1.nwk \
+--ancestral-sequences results/nt_muts_H1N1.json \
+--reference-sequence config/reference_H1N1_ha.gb \
+--output-node-data results/aa_muts_H1N1.json
+
+augur clades \
+--tree results/tree_H1N1.nwk \
+--mutations results/nt_muts_H1N1.json \
+      results/aa_muts_H1N1.json \
+--reference config/reference_H1N1_ha.gb \
+--clades config/clades_h1n1pdm.tsv \
+--output-node-data results/H1N1_clades_H1N1.json
+
+augur export v2 \
+  --tree results/tree_H1N1.nwk \
+  --metadata data/Final_CHOA_H1N1_HA_metadata.csv \
+  --node-data results/branch_lengths_H1N1.json \
+              results/traits_H1N1.json \
+              results/nt_muts_H1N1.json \
+              results/aa_muts_H1N1.json \
+              results/H1N1_clades_H1N1.json \
+  --colors config/colors_H1N1.tsv \
+  --auspice-config config/auspice_config_test.json \
+  --output auspice/CHOA_H1N1_2017_H1N1.json
